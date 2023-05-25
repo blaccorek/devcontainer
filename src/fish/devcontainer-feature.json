@@ -1,0 +1,7 @@
+{
+    "name": "Fish",
+    "id": "fish",
+    "version": "1.0.0",
+    "description": "Use Fish as default shell",
+    "options": {}
+}
