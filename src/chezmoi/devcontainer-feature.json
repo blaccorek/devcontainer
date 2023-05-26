@@ -1,0 +1,16 @@
+{
+    "name": "Chezmoi",
+    "id": "chezmoi",
+    "version": "1.0.0",
+    "description": "Use chezmoi to import dot files",
+    "options": {
+        "user": {
+            "type": "string",
+            "default": ""
+        },
+        "destination": {
+            "type": "string",
+            "default": "/usr/local/bin"
+        }
+    }
+}
