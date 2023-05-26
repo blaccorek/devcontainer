@@ -17,6 +17,7 @@
                 ]
             },
             "extensions": [
+                "eamodio.gitlens",
                 "mads-hartmann.bash-ide-vscode"
             ]
         }
