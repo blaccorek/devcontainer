@@ -12,4 +12,4 @@ A Fish shell as default shell feature.
 
 ---
 
-_Note: Latest Fish version are not available on Ubuntu_
+_Note: Latest Fish version does not seem to be available on Ubuntu base image_
