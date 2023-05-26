@@ -1,0 +1,10 @@
+{
+    "set-as-shell": {
+        "image": "mcr.microsoft.com/devcontainers/base:debian",
+        "features": {
+            "fish": {
+                "configureFishAsDefaultShell": true
+            }
+        }
+    }
+}

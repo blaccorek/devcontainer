@@ -2,6 +2,14 @@
     "name": "Fish",
     "id": "fish",
     "version": "1.0.0",
-    "description": "Use Fish as default shell",
-    "options": {}
+    "description": "Use fish as default shell",
+    "options": {
+        "configureFishAsDefaultShell":{
+            "type": "boolean",
+            "default": false
+        }
+    },
+    "installsAfter":[
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
 }
