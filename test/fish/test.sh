@@ -35,7 +35,11 @@ set -e
 # Optional: Import test library bundled with the devcontainer CLI
 source dev-container-features-test-lib
 
+check "env" bash -c "cat /etc/os-release"
+
 check "fish is installed" bash -c "which fish | grep '/usr/bin/fish'"
+
+check "fish version starts with 4" bash -c "fish --version | grep '^fish, version 4'"
 
 # Report results
 # If any of the checks above exited with a non-zero exit code, the test will fail.
