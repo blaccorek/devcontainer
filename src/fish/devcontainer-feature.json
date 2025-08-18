@@ -4,12 +4,13 @@
     "version": "1.0.0",
     "description": "Use fish as default shell",
     "options": {
-        "configureFishAsDefaultShell":{
+        "configureFishAsDefaultShell": {
             "type": "boolean",
-            "default": false
+            "default": false,
+            "description": "Set fish as the default terminal shell"
         }
     },
-    "installsAfter":[
+    "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
     ]
 }

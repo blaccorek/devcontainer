@@ -1,6 +1,6 @@
 {
     "set-as-shell": {
-        "image": "mcr.microsoft.com/devcontainers/base:debian",
+        "image": "mcr.microsoft.com/vscode/devcontainers/base:debian",
         "features": {
             "fish": {
                 "configureFishAsDefaultShell": true
