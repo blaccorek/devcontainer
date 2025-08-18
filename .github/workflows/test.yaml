@@ -34,7 +34,7 @@ jobs:
     continue-on-error: true
     strategy:
       matrix:
-        features: ["fish"]
+        features: ["fish", "chezmoi"]
     steps:
       - uses: actions/checkout@v3
 
