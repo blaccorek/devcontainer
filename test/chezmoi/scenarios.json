@@ -1,9 +1,9 @@
 {
-    "jtandria": {
+    "blaccorek": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
             "chezmoi": {
-                "user": "jtandria"
+                "user": "blaccorek"
             }
         }
     }
