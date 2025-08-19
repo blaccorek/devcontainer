@@ -2,7 +2,7 @@
 
 set -e
 
-GITHUB_USERNAME=${USER}
+GITHUB_USERNAME=${GHUSER}
 DEST_FOLDER=${DESTINATION}
 
 apt-get update -y && apt-get install -y curl

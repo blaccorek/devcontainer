@@ -3,7 +3,7 @@
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
             "chezmoi": {
-                "user": "blaccorek"
+                "ghUser": "blaccorek"
             }
         }
     }

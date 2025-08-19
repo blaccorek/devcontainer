@@ -1,10 +1,10 @@
 {
     "name": "Chezmoi",
     "id": "chezmoi",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Use chezmoi to import dot files",
     "options": {
-        "user": {
+        "ghUser": {
             "type": "string",
             "default": ""
         },
