@@ -1,7 +1,7 @@
 {
     "id": "custom",
-    "version": "0.1.0",
-    "name": "Custom modern Dev environment",
+    "version": "0.1.1",
+    "name": "Blaccorek custom",
     "description": "Container with modern tools to get started with development.",
     "documentationURL": "https://github.com/blaccorek/devcontainer",
     "publisher": "blaccorek",
