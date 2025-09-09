@@ -1,0 +1,36 @@
+{
+    "id": "blaccorek-env",
+    "version": "0.1.0",
+    "name": "Custom modern Dev environment",
+    "description": "Container with modern tools to get started with development.",
+    "documentationURL": "https://github.com/blaccorek/devcontainer",
+    "publisher": "blaccorek",
+    "licenseURL": "https://github.com/blaccorek/devcontainer",
+    "options": {
+        "imageTag": {
+            "type": "string",
+            "description": "Base image to use for the development container",
+            "proposals": [
+                "bookworm",
+                "alpine"
+            ],
+            "default": "bookworm"
+        },
+        "dotfilesBranch": {
+            "type": "string",
+            "description": "Branch of your dotfiles repository to use with chezmoi",
+            "default": "main"
+        },
+        "dotfiles": {
+            "type": "string",
+            "description": "Url to your dotfiles repository",
+            "default": "https://github.com/blaccorek/dotfiles.git"
+        }
+    },
+    "platforms": [
+        "Any"
+    ],
+    "optionalPaths": [
+        ".github/*"
+    ]
+}
