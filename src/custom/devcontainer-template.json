@@ -1,5 +1,5 @@
 {
-    "id": "blaccorek-env",
+    "id": "custom",
     "version": "0.1.0",
     "name": "Custom modern Dev environment",
     "description": "Container with modern tools to get started with development.",
